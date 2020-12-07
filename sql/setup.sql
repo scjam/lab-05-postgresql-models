@@ -3,5 +3,5 @@ CREATE TABLE dawsons_creek_characters (
     character_name TEXT NOT NULL,
     real_life_name TEXT NOT NULL,
     description TEXT,
-    sydney_rating NUMBER
+    sydney_rating INT
 );
