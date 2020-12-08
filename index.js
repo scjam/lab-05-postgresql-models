@@ -1,8 +1,9 @@
 require('dotenv').config();
 const express = require('express');
-const DawsonsCreekCharacter = require('./lib/models/DawsonsCreekCharacters');
 const app = express();
 app.use(express.json());
+const DawsonsCreekCharacter = require('./lib/models/DawsonsCreekCharacters');
+
 
 app.post('/dawsons', async(req, res) => {
   DawsonsCreekCharacter
